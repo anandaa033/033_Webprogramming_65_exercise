@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Register</title>
+</head>
+<body>
+    <h1>Alumni Register From</h1>
+    <form action="https://example.com/" method="post">
+        <p><label for="name">ชื่อ-สกุล : </label>
+            <input type="text" name="customer_name" size="20" maxlength="25"></p>
+        <label for="id">รหัสนักศึกษา : </label>
+            <input type="text" name="ID" size="20" maxlength="10">
+            <br><br>
+        <label for="sex">เพศ : </label>
+            <input type="radio" name="gender">ชาย
+            <input type="radio" name="gender">หญิง
+            <input type="radio" name="gender">อื่นๆ
+            <br><br>
+        <label for="year">ปีเข้าศึกษา : </label>
+        <input type="datetime" name="year" size="20" maxlength="4">
+        <br>
+        <br>
+        <label for="address">ที่อยู่ : </label>
+        <br>
+        <textarea name="address" cols="50" rows="10"></textarea>
+        <br><br>
+        <label for="email">อีเมลล์ : </label>
+        <input type="email" name="email" size="25" maxlength="30">
+        <br><br>
+        <label for="tel">เบอร์โทรติดต่อ : </label>
+        <input type="tel" name="tel" size="20" maxlength="10">
+        <br><br>
+        <label for="province">หลักสุตร : </label>
+        <select name="province">
+            <option value="11">IT</option>
+            <option value="12">IS</option>
+        </select>
+        <br><br>
+        <label for="career">อาชีพปัจจุบัน : </label>
+        <input type="text" name="career" size="10" maxlength="15"> 
+        <br><br>
+        <label for="company">สถานที่ทํางาน (ระบุชื่อบริษัท และที่อยู่) : </label>
+        <br>
+        <textarea name="company" cols="50" rows="10"></textarea>
+        <br><br>
+        <label for="image">รูปถ่ายตนเอง : </label>
+        <input type="file" name="file">
+
+        <br><br>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" name="reset" value="Clear">
+
+        <br><br>
+        <a href="../index.html"> Home</a>
+
+    </form>
+</body>
+</html>
