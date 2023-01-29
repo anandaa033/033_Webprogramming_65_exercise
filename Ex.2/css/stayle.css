@@ -3,13 +3,64 @@ body {
 /* font-family: 'Itim', cursive; */
 /* font-family: 'Lobster', cursive; */
 /* font-family: 'Patrick Hand', cursive; */
-
+background-color: antiquewhite;
+}
+.head{
+    background-color: white;
+    margin: 0 auto;
+}
+.name{
+    font-size: 20px;
+    margin: -30px 0px 0px 0px;
+    padding: 0px 0px 40px 0px;
+}
+.container{
+        width: 80%;
+        margin: 0 auto;
+        
+      }
+.icon{
+    padding: 0px 10px 0px 0px;
+}
+.h{
+    width: 100% 500px;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+        
+}
+.hhh{  
+}
+.icon{
+    
 }
 h1{
+    font-size: 60px;
+    letter-spacing: 2px;
     font-family: 'Fredoka One', cursive;
     font-size: xx-large;
     font-weight: bolder;
+    font-size: 60px;
+    color: darkblue;
 }
 h2{
     font-family: 'Fredoka One', cursive;
+    font-size: 45px;
+    color: brown;
+}
+ol{
+    background-color: white;
+    font-size: 25px;
+}
+table{
+    background-color: white;
+    font-size: 25px;
+}
+a{
+    color: forestgreen;
+    text-decoration: none;
+}
+a:hover{
+    color:goldenrod;
+    font-weight: bold;
 }
